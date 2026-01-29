@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import Slider from 'react-native-slider';
+import Slider from '@react-native-community/slider';
 import { Audio } from 'expo-av';
 
 const Metronome = ({ tempo = 120, onTempoChange, isPlaying, onToggle }) => {
